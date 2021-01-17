@@ -143,6 +143,16 @@ One thing to keep in mind when using the spin function this way. If you want to 
   }
 ```
 
+
+# Docker 
+- docker run --name ng-app-container -d -p 8080:80 angular-9-app
+
+- docker build -t angular-9-app .
+
+- docker tag ngx-wheel:latest shiva7071/ngx-wheel:latest 
+
+- docker push shiva7071/ngx-wheel
+
 ## License
 
 MIT © [Ahmed El Sayegh](mailto:ahmedelsayegh7@gmail.com)
